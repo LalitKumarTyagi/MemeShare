@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 
             },
             { error ->
-                Toast.makeText(this,"Somethin went wrong",Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Something went wrong",Toast.LENGTH_LONG).show()
             }
         )
         // Add the request to the RequestQueue.
